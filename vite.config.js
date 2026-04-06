@@ -2,5 +2,6 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-    base: "/COMPLETE-PORTFOLIO-WEBSITE/",
-});
+  base: './', // Add this line
+  plugins: [react()],
+})
