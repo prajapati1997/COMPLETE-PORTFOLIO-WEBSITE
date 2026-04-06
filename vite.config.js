@@ -1,7 +1,6 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react' // This is the missing line!
+// vite.config.js
+import { defineConfig } from "vite";
 
 export default defineConfig({
-  plugins: [react()],
-  base: './', 
-})
+    base: "/COMPLETE-PORTFOLIO-WEBSITE/",
+});
